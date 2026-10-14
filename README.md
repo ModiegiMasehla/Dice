@@ -90,6 +90,8 @@ python -m unittest discover -s tests -t . -v
 ruff check . && mypy
 ```
 
+CI (GitHub Actions) runs lint and strict type checks once, then the test suite on Python 3.9 through 3.13, plus a CLI smoke test of the installed command.
+
 ## What changed
 
 | Original | Now |
